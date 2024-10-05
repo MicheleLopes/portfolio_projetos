@@ -31,76 +31,135 @@
 									<div class="content">
 										<header>
 											<h1>Bem-vindo (a) ao meu portfólio de <br />
-											projetos de Ciência de Dados!</h1>
+											projetos como Cientista de Dados!</h1>
 										</header>
-										<p Align="justify">Nessa página, demonstro minhas habilidades em resolver problemas de negócio utilizando conceitos e ferramentas da Ciência de Dados, através de projetos com dados públicos.</p>
-										<p Align="justify">Você vai encontrar, minhas experiências profissionais, os projetos desenvolvidos com seus links para acesso e as habilidades e ferramentas utilizadas.<br />Sinta-se à vontade para entrar em contato através dos links no final da página.</p>
+										<p Align="justify">Nessa página, demonstro minhas habilidades em resolver problemas de negócio utilizando conceitos e ferramentas da Ciência de Dados, através de projetos com dados públicos e um projeto que desenvolvi dentro da Empresa Jr. da comunidade DS.</p>
+										<p Align="justify">Aqui você vai encontrar, minhas experiências profissionais, os projetos desenvolvidos com seus links para acesso e as habilidades e ferramentas utilizadas.<br />Sinta-se à vontade para entrar em contato através dos links no final da página.</p>
 										
 									</div>
+									<style>
+										.image.object img {
+											width: 100px;
+											height: 100px;
+										}
+									</style>
 									<span class="image object">
 										<img src="images/perfil.jpg" alt="" />
 									</span>
 								</section>
 								<!--Sobre mim-->
 								<section>
-									<header class="main">
-										<h1>Sobre mim</h1>
-									</header>
-
 									<!-- Content -->
-										<h2 id="content">Meu nome é Michele Lopes</h2>
-										<p>Sou formada em Engenharia de Produção. Trabalhei durante 4 anos na área comercial, com vendas consultivas. Durante esses anos, sempre com uma postura  pro ativa e analítica, implantei diversas melhorias além da minha função principal, estas descritas ao final da página na seção de experiências.</p>
-										<p>Meu foco hoje é uma migração de carreira para cientista de dados, para desenvolver produtos de dados, seja através de análises e técnicas de Machine Learning ou estatística para solucionar problemas de negócio para as empresas. Para isso tenho dedicado meu tempo ao estudo e elaboração de projetos de portfólio e assim, aumentar meu nível de conhecimento nas linguagens de programação e ferramentas e  também possibilitando adquirir experiência prática na área.
+										<h2 id="content">Sobre mim</h2>
+										<p>Profissional com 4 anos de experiência na área comercial/vendas em atuação tanto no mercado de B2B como B2C. 
+										Atualmente estou em transição de carreira para área de ciência de dados, desde fevereiro de 2023. Para tanto, ingressei na Comunidade DS onde estudo e aplico em projetos técnicos ferramentas como Python, SQL, Git, Machine Learning e estatística descritiva.
+											</p>
+										<p>Durante minha atuação na área comercial, desenvolvi diversas competências comportamentais que podem contribuir para a nova área de atuação, principalmente na parte de comunicação.
+											Trabalhei próximo a meus pares atuando com algumas responsabilidade de liderança e acompanhei e implementei planos de ação para melhoria nos resultados de colegas, como resultado uma colega que estava a quase 6 meses sem bater meta atingiu o resultado por 3 meses consecutivos.
+											
 										</p>
 									
-
 								</section>	
 							
-							<!-- Section -->
+							<!-- projetos -->
+							<style>
+								.posts {
+									display: flex;
+									flex-wrap: wrap;
+								}
+								.posts article.full-width {
+									flex: 1 1 100%;
+									margin-bottom: 20px;
+								}
+								.columns {
+									display: flex;
+									justify-content: space-between;
+									width: 100%;
+								}
+								.column {
+									flex: 1 1 48%;
+									margin-bottom: 20px;
+								}
+								.image.object img {
+									width: 40px; /* Define a largura desejada */
+									height: auto; /* Mantém a proporção original */
+								}
+							</style>
 							<section>
 								<header class="major">
 									<h1>Projetos em Ciência de Dados</h1>
 								</header>
 								<div class="posts">
-									<article>
-										<a href="https://github.com/MicheleLopes/projeto_fome_zero/tree/main" class="image"><img src="images/dados1.jpg" alt="" /></a>
-										<h3>Desenvolvimento de um Painel Gerencial para um Marketplace de restaurantes com o Streamlit</h3>
-										<p>Nesse projeto, os conceitos de Programação em Python, manipulação de dados, pensamento estratégico e lógica de negócio, junto com ferramentas de desenvolvimetno web como o Streamlit e Github, foram usados para desenvolver um painel gerencial com as principais métricas de uma empresa marketplace de restaurantes.</p>
-										<p>O resultado final do projeto foi um painel hospedado em um ambiente Cloud e disponibilizado através de um link web. O painel pode ser acessado por qualquer dispositivo conectado na internet.</p>
+									<article class="full-width">
+										<a href="https://github.com/MicheleLopes/Projeto-Monitoramento-Aprendizado" class="image object">
+											<img src="images/navegacao.gif" alt="" /></a>
+										<h3>Desenvolvimento de um ETL e Dashboard para monitoramento do aprendizado dos alunos na Comunidade DS</h3>
+										<p>Este projeto foi desenvolvido através de um vínculo por uma empresa Jr. da Comunidade DS e em colaboração com o cientista de dados Daniel Salvatori.
+										Ele possui duas entregas principais:</p>
+											<ul>
+												<li>ETL : Responsável pela extração dos dados da plataforma de ensino, manipulação e carga em tabelas dentro do GCP (Google Cloud Platform);</li>
+												<li>Dashboard : Painel para interação com o usuário utilizando a plataforma Streamlit, onde será possivel o acompanhamento do progresso dos alunos.;</li>
+											</ul>
+										<h4>Resultados:</h4>
+										<ul>
+											<li>Redução no tempo de coleta de dados de 2-4 horas para menos de 1 minuto;</li>
+											<li>Facilitação na análise do desempenho individual e por turma, permitindo intervenções mais rápidas e assertivas;</li>
+											<li>Melhoria na qualidade dos dados, eliminando o risco de erro humano;</li>
+											<li>Possibilidade de gerar relatórios para análises estratégicas e operacionais.</li>
+										</ul>
 										<h4>As ferramentas utilizadas foram:</h4>
 														<ul>
 															<li>Python, Pandas, Plotly e Numpy;</li>
-															<li>Jupyter Lab;</li>
-															<li>Terminal;</li>
+															<li>VSCode;</li>
+															<li>Git e github;</li>
 															<li>Streamlit;</li>
-															<li>Streamlit Cloud;</li>
-															<li>Github.</li>
+															<li>Google Cloud Platform (GCP);</li>
+															<li>Integração de API.</li>
 														</ul>
 										<ul class="actions">
-											<li><a href="https://github.com/MicheleLopes/projeto_fome_zero/tree/main" class="button">Saiba mais</a></li>
+											<li><a href="https://github.com/MicheleLopes/Projeto-Monitoramento-Aprendizado" class="button">Saiba mais</a></li>
 										</ul>
 									</article>
-									<article>
-										<a href="https://github.com/MicheleLopes/ds_em_producao/tree/main" class="image"><img src="images/dash1.jpg" alt="" /></a>
-										<h3> Predição de vendas para lojas de uma rede farmacêutica</h3>
-										<p> Desenvolvimento de um projeto de Machine Learning para solucionar um problema de regressão de predição de vendas de 1115 lojas nas próximas 6 semanas, para auxiliar os gerentes de loja na tomada de decisão de futuros investimentos.</p>
-										<p>	 O produto final foi um bot dentro do aplicativo Telegram, que pode ser acessado pelo celular e através de uma API, retorna as previsões.</p>
+									<div class="columns">
+										<article class="column">
+											<a href="https://github.com/MicheleLopes/projeto_fome_zero/tree/main" class="image">
+												<img src="images/dados1.jpg" alt="" /></a>
+											<h3>Desenvolvimento de um Painel Gerencial para um Marketplace de restaurantes com o Streamlit</h3>
+											<p>Nesse projeto, os conceitos de Programação em Python, manipulação de dados, pensamento estratégico e lógica de negócio, junto com ferramentas de desenvolvimento web como o Streamlit e Github, foram usados para desenvolver um painel gerencial com as principais métricas de uma empresa marketplace de restaurantes.</p>
+											<p>O resultado final do projeto foi um painel hospedado em um ambiente Cloud e disponibilizado através de um link web. O painel pode ser acessado por qualquer dispositivo conectado na internet.</p>
 											<h4>As ferramentas utilizadas foram:</h4>
-														<ul>
-															<li>Python, Pandas, Numpy, matplotlib e Seaborn;</li>
-															<li>Anaconda e Jupyter Lab;</li>
-															<li>Algoritmo Regressão, Machine Learning e Sklearn;</li>
-															<li>Técnicas de Feature Selection e Redução de Dimensionalidade;</li>
-															<li>Render Cloud;</li>
-															<li>Framework Python Flask;</li>
-															<li>API Telegram para criação de Bots;</li>
-															<li>Git e Github.</li>
-														</ul>
-										<ul class="actions">
-											<li><a href="https://github.com/MicheleLopes/ds_em_producao/tree/main" class="button">Saiba mais</a></li>
-										</ul>
-									</article>
-									
+															<ul>
+																<li>Python, Pandas, Plotly e Numpy;</li>
+																<li>Jupyter Lab;</li>
+																<li>Terminal;</li>
+																<li>Streamlit;</li>
+																<li>Streamlit Cloud;</li>
+															</ul>
+											<ul class="actions">
+												<li><a href="https://github.com/MicheleLopes/projeto_fome_zero/tree/main" class="button">Saiba mais</a></li>
+											</ul>
+										</article>
+										<article class="column">
+											<a href="https://github.com/MicheleLopes/ds_em_producao/tree/main" class="image"><img src="images/dash1.jpg" alt="" /></a>
+											<h3> Predição de vendas para lojas de uma rede farmacêutica</h3>
+											<p> Desenvolvimento de um projeto de Machine Learning para solucionar um problema de regressão de predição de vendas de 1115 lojas nas próximas 6 semanas, para auxiliar os gerentes de loja na tomada de decisão de futuros investimentos.</p>
+											<p>	 O produto final foi um bot dentro do aplicativo Telegram, que pode ser acessado pelo celular e através de uma API, retorna as previsões.</p>
+												<h4>As ferramentas utilizadas foram:</h4>
+															<ul>
+																<li>Python, Pandas, Numpy, matplotlib e Seaborn;</li>
+																<li>Anaconda e Jupyter Lab;</li>
+																<li>Algoritmo Regressão, Machine Learning e Sklearn;</li>
+																<li>Técnicas de Feature Selection e Redução de Dimensionalidade;</li>
+																<li>Render Cloud;</li>
+																<li>Framework Python Flask;</li>
+																<li>API Telegram para criação de Bots;</li>
+																<li>Git e Github.</li>
+															</ul>
+											<ul class="actions">
+												<li><a href="https://github.com/MicheleLopes/ds_em_producao/tree/main" class="button">Saiba mais</a></li>
+											</ul>
+										</article>
+									</div>	
 								</div>
 							</section>
 
@@ -170,6 +229,7 @@
 										<h2 id="content">Projetos de cientista de dados</h2>
 										<p>Desenvolvimento de um Painel Gerencial para um Marketplace de restaurantes com o Streamlit;</p>
 										<p>Desenvolvimento de um projeto de Machine Learning para solucionar um problema de regressão de predição de vendas. O produto final foi um bot dentro do aplicativo Telegram que através de uma API, retorna as previsões.</p>
+										<p>Desenvolvimeno de um projeto por meio da Empresa jr. de monitoramento do aprendizado dos alunos. Criação de toda estrutura de ETL, para automatizar o processo de coleta de dados e armazenar o histórico.</p>
 										<h2 id="content">2 anos como Consultora Home Equity</h2>
 										<p>Atuação com consultoria comercial e financeira para venda de empréstimo com imóvel em garantia (Vendas B2C)</p>
 											<ul>
